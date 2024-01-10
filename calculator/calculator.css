@@ -1,0 +1,157 @@
+@import url('https://fonts.googleapis.com/css2?family=Orbitron&display=swap');
+
+*{
+   padding: 0;
+   margin: 0;
+   font-family: 'poppins', sans-serif;
+}
+body{
+   background: linear-gradient(to bottom, #e1a97fdf, #b2d78b);
+   display: grid;
+   height: 100vh;
+   place-items: center;
+}
+.main{
+   width: 400px;
+   height: 500px;
+   background: linear-gradient(to bottom, #87b9c7, #3340a2df);
+   position: absolute;
+   box-shadow: 10px 10px 10px 10px rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+   border: 5px solid black;
+   border-radius: 25px; 
+}
+.main input[type='text'] {
+   width: 85%;
+   position: relative;
+   height: 90px;
+   top: 25px;
+   text-align: right;
+   padding: 3px 6px;
+   outline: none;
+   font-size: 30px;
+   font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+   border: 4px solid rgba(0, 0, 0, 0.775);
+   display: flex;
+   margin: auto;
+   border-radius: 5px;
+   color: black;
+}
+.btn input[type='button']{
+   width:83px;
+   padding: 2px;
+   margin: 8px 3.5px;
+   position: relative;
+   left: 13px;
+   top: 60px;
+   height: 45px;
+   cursor: pointer;
+   font-size: 16px;
+   font-weight: bold;
+   font-family: 'Orbitron', sans-serif;
+   transition: 0.5s;
+   background-color: rgb(199, 220, 225);
+   box-shadow: 15px 15px 15px 15px rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+   border: 3px solid black;
+   border-radius: 8px;
+   color: black;
+}
+.btn input[type='button1']{
+   width:77px;
+   padding: 2px;
+   margin: 8px 3.5px;
+   position: relative;
+   text-align: center;
+   left: 13px;
+   top: 62px;
+   height: 39px;
+   cursor: pointer; 
+   font-size: 16px;
+   font-weight: bold;
+   font-family: 'Orbitron', sans-serif;
+   transition: 0.5s;
+   background-color: #ff2130f7;
+   box-shadow: 15px 15px 15px 15px rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+   border: 3px solid black;
+   border-radius: 8px;
+   color: black;
+}
+.btn input[type='button2']{
+   width:77px;
+   padding: 2px;
+   margin: 8px 3.5px;
+   position: relative;
+   left: 13px;
+   top: 60px;
+   height: 39px;
+   cursor: pointer;
+   font-size: 16px;
+   font-weight: bold;
+   font-family: 'Orbitron', sans-serif;
+   text-align: center;
+   transition: 0.5s;
+   background-color: rgb(99, 189, 99);
+   box-shadow: 15px 15px 15px 15px rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+   border: 3px solid black;
+   border-radius: 8px;
+   color: black;
+}
+.btn input[type='button3']{
+   width:77px;
+   padding: 2px;
+   margin: 8px 2.4px;
+   position: relative;
+   text-align: center;
+   left: 13px;
+   top: 60px;
+   height: 39px;
+   cursor: pointer;
+   font-size: 16px;
+   font-weight: bold;
+   font-family: 'Orbitron', sans-serif;
+   transition: 0.5s;
+   background-color: rgb(216, 105, 65);
+   box-shadow: 15px 15px 15px 15px rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+   border: 3px solid black;
+   border-radius: 8px;
+   color: black;
+}
+.btn input[type='button4']{
+   width:77px;
+   padding: 2px;
+   margin: 8px 2.4px;
+   position: relative;
+   text-align: center;
+   left: 10px;
+   top: 60px;
+   height: 39px;
+   cursor: pointer;
+   font-size: 16px;
+   font-weight: bold;
+   font-family: 'Orbitron', sans-serif;
+   transition: 0.5s;
+   background-color: rgb(216, 105, 65);
+   box-shadow: 15px 15px 15px 15px rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+   border: 3px solid black;
+   border-radius: 8px;
+   color: black;
+}
+.btn input[type='button']:hover{
+   background-color: rgb(71, 67, 67);
+   color: white;
+}
+.btn input[type='button1']:hover{
+   background-color: rgb(71, 67, 67);
+   color: white;
+}
+.btn input[type='button2']:hover{
+   background-color: rgb(71, 67, 67);
+   color: white;
+}
+.btn input[type='button3']:hover{
+   background-color: rgb(71, 67, 67);
+   color: white;
+}
+.btn input[type='button4']:hover{
+   background-color: rgb(71, 67, 67);
+   color: white;
+}
