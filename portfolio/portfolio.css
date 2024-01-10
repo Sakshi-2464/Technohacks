@@ -1,0 +1,173 @@
+
+    @import url('https://fonts.googleapis.com/css?family=El+Messiri');
+    @import url('https://fonts.googleapis.com/css?family=Della+Respira');
+    @import url('https://fonts.googleapis.com/css?family=Preahvihear');
+    @import url('https://fonts.googleapis.com/css?family=Oxygen+Mono');
+    body{
+      background: linear-gradient(to top, #cb8fc9df, #78cbb1);
+    }
+#navbar{
+    display: flex;
+    align-items: center;
+    position: sticky;
+    top: 0px;
+    background-color: rgba(98, 20, 85, 0.856);
+}
+#navbar ul{
+    display: flex;
+    font-family: Preahvihear,cursive;
+    color: purple;
+    margin-right: 30px;
+}
+#navbar ul li{
+    list-style-type: none;
+    font-size: 1.8rem;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+#navbar ul li a{
+    color: wheat;
+    display: block;
+    padding: 3px 22px;
+    border-radius: 20px;
+    text-decoration: none;
+}
+#navbar ul li:hover{
+    color: wheat;
+    transform: rotate(10deg);
+}
+.container{
+    display: flex;
+    margin-right: 70px;
+    justify-content: right;
+}
+.container ul{
+    display: flex;
+}
+.container ul li{
+    list-style-type: none;
+    font-family: "El Messiri", sans-serif;
+    font-weight: bold; 
+    color: rgb(30, 1, 71);
+    font-size: 3rem;
+    margin-top: 100px;
+    margin-right: 100px;
+}
+.container img{
+    margin-right: 350px;
+    width: 45%;
+    height: 280px;
+    border-radius: 100%;
+    border: 5px solid rgb(70, 4, 70);
+}
+.about{
+    margin-left: 50px;
+    font-family: Preahvihear,cursive;
+    font-size: 1.4rem;
+    color: rgb(30, 1, 71);
+}
+.about p{
+    font-family: "Della Respira", serif;
+    font-size: 20px;
+    font-weight: 700;
+    color: rgb(212, 60, 5);
+}
+.skills{
+    margin-left: 50px;
+    font-family: Preahvihear,cursive;
+    font-size: 1.4rem;
+    color: rgb(30, 1, 71);
+}
+.skills {
+    list-style-type: none;
+}
+.skills  img{
+    margin-left: 60px;
+    width: 50px;
+    height: 50px;
+}
+.connect{
+    margin-left: 50px;
+    font-family: Preahvihear,cursive;
+    font-size: 1.4rem;
+    color: rgb(30, 1, 71);
+}
+.connect img{
+    margin-left: 50px;
+    width: 50px;
+    height: 50px;
+}
+.connect img:hover {
+    cursor: pointer;
+    background-color: aliceblue;
+    transform: rotate(10deg);
+}
+.education{
+    margin-left: 50px;
+    font-family: Preahvihear,cursive;
+    font-size: 1.4rem;
+    color: rgb(30, 1, 71);
+}
+.education img{
+    margin-left: 10px;
+    height: 30px;
+}
+.education a{
+    font-family: "Della Respira", serif;
+    margin-top: 20px;
+    margin-left: 15px;
+    font-size: 1.1rem;
+    font-weight: 600;
+    color: rgb(212, 60, 5);
+}
+.education p{
+    margin-bottom: 2px;
+    font-size: 1.4rem;
+    font-family: "Della Respira", serif;
+    font-weight: bold;
+    color: rgb(30, 1, 71);
+}
+
+.skill-img-container {
+      position: relative;
+      display: inline-block;
+    }
+    .content {
+      visibility: hidden;
+      width: 400px;
+      background-color: #333;
+      color: #fff;
+      border-radius: 5px;
+      padding: 5px;
+      position: absolute;
+      top: 125%; 
+      left: 30%;
+      transform: rotate(0deg);
+      transition: opacity 0.3s;
+    }
+    
+    .skill-img-container:hover .content {
+      visibility: visible;
+      opacity: 1;
+      font-size: 0.8rem;
+    }
+    .projects{
+    margin-left: 50px;
+    font-family: Preahvihear,cursive;
+    font-size: 1.4rem;
+    color: rgb(30, 1, 71);
+}
+.projects ul li{
+    font-family: Preahvihear,cursive;
+    margin-top: 7px;
+    margin-left: 15px;
+    font-size: 1.4rem;
+    color: rgb(30, 1, 71);
+    margin-right: 200px;
+}
+.projects ul li p{
+    font-family: "Della Respira", serif;
+    font-size: 1.2rem;
+    font-weight: 600;
+    color: rgb(212, 60, 5);
+}
